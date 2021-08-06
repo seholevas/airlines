@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import React from "react";
+import Card from "./jsx/Card";
+import CheckBox from "./jsx/CheckBox";
+import Header from "./jsx/Header";
+
+import "./sass/Card.sass";
+import "./sass/Grid.sass";
+import "./sass/Flexbox.sass";
+import "./sass/Fonts.sass";
+import "./sass/Header.sass";
+import "./sass/Refactor.sass";
 
 function App() {
+  const [alliances, setAlliances] = useState({});
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header></Header>
+      <div class="content">
+        <div class="primary-font">Airlines</div>
+      <CheckBox state={alliances} setState={setAlliances}></CheckBox>
+      <Card state={alliances}></Card>
+      </div>
     </div>
   );
 }
