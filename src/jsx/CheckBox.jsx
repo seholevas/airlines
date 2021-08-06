@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 // import { results } from "../api/dummydata";
+import {getAllianceName} from "../helper"
 
 // TODO: make the optimization better for filtering the alliances better. find away to search through the array once.
 export default class CheckBox extends Component {
@@ -32,7 +33,7 @@ export default class CheckBox extends Component {
                   }
                 }}
               ></input>
-              {result}
+              {getAllianceName(result)}
             </label>
           ))}
       </div>

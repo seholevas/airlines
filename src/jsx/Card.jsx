@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import getFilteredAirlines from "../event-handlers/clicked";
+import { getAllianceName, getFilteredAirlines } from "../helper";
 
 export default class Card extends Component {
   render() {
@@ -15,7 +15,7 @@ export default class Card extends Component {
             <div className="airline-information">
               <div className="secondary-font">{elem.name}</div>
               <div className="hidden tertiary-font">
-                {elem.alliance !== "none" ? <div>{elem.alliance}</div> : null}
+                {elem.alliance !== "none" ? <div>{getAllianceName(elem.alliance)}</div> : null}
                 <div>{elem.phone}</div>
                 <div className="quaternary-font">{elem.site}</div>
               </div>
