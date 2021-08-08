@@ -1,3 +1,26 @@
+<!-- My Assumptions -->
+# Assumptions
+
+1. if an airline is not affiliated with an alliance, do not show none:
+
+   We could show none, or unaffiliated. However, I would then give the user a fourth option to filter by unaffiliated. However, I wanted to keep to the design specs so I opted out of adding these features.
+
+2. Like said in the documents given, I took the liberty to experiment with number cards fit in each row. I used CSS Grid to display the cards, thus allowing for responsive design without any media queries.
+
+<!-- How to Run Locally -->
+# Running Locally
+
+0. Prerequisite: you will need to install sass (found here: https://www.npmjs.com/package/sass). should be able install it by opening up the command terminal and typing npm "install sass"
+
+1. download project 
+
+2. cd into the new folder and type "npm install" This installs the required dependencies.
+
+3. To run the React project: run the command in the command line npm start
+
+
+<!-- Basic react app instructions -->
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

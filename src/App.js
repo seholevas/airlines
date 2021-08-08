@@ -12,6 +12,7 @@ import "./sass/Header.sass";
 import "./sass/Refactor.sass";
 
 function App() {
+  // state
   const [alliances, setAlliances] = useState({});
 
   return (

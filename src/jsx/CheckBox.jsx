@@ -17,10 +17,12 @@ export default class CheckBox extends Component {
                 id={result}
                 className="input"
                 onChange={async (e) => {
+                  // this function checks if a checkbox is checked and if it is
+                  // it adds or removes it from the react state.
                   const isChecked = e.target.checked;
                   const id = e.target.id;
                   var data = {};
-                  data[id] = "name";
+                  data[id] = getAllianceName(id);
                   var newState = { ...this.props.state };
 
                   if (isChecked) {

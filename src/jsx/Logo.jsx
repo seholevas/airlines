@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+// based on the SVG file given
 export default class Logo extends Component {
   render() {
     return (
