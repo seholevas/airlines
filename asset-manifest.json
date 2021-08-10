@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/seholevas.github.io/airlines/static/css/main.3bada705.chunk.css",
+    "main.js": "/seholevas.github.io/airlines/static/js/main.243238e2.chunk.js",
+    "main.js.map": "/seholevas.github.io/airlines/static/js/main.243238e2.chunk.js.map",
+    "runtime-main.js": "/seholevas.github.io/airlines/static/js/runtime-main.eb5c24b4.js",
+    "runtime-main.js.map": "/seholevas.github.io/airlines/static/js/runtime-main.eb5c24b4.js.map",
+    "static/js/2.0ffc9636.chunk.js": "/seholevas.github.io/airlines/static/js/2.0ffc9636.chunk.js",
+    "static/js/2.0ffc9636.chunk.js.map": "/seholevas.github.io/airlines/static/js/2.0ffc9636.chunk.js.map",
+    "static/js/3.8ce8aa36.chunk.js": "/seholevas.github.io/airlines/static/js/3.8ce8aa36.chunk.js",
+    "static/js/3.8ce8aa36.chunk.js.map": "/seholevas.github.io/airlines/static/js/3.8ce8aa36.chunk.js.map",
+    "index.html": "/seholevas.github.io/airlines/index.html",
+    "static/css/main.3bada705.chunk.css.map": "/seholevas.github.io/airlines/static/css/main.3bada705.chunk.css.map",
+    "static/js/2.0ffc9636.chunk.js.LICENSE.txt": "/seholevas.github.io/airlines/static/js/2.0ffc9636.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb5c24b4.js",
+    "static/js/2.0ffc9636.chunk.js",
+    "static/css/main.3bada705.chunk.css",
+    "static/js/main.243238e2.chunk.js"
+  ]
+}
